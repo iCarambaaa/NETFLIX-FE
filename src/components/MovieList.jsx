@@ -10,7 +10,8 @@ class MovieList extends Component {
   componentDidMount = async () => {
     const response = await fetch(
       // "http://www.omdbapi.com/?apikey=c73430e0&s=" + this.props.query
-      "http://localhost:3001/media"
+      // "http://localhost:3001/media"
+      "https://netflix-benchmark-be.herokuapp.com/"
     );
     const data = await response.json();
     this.setState({ movies: data, loading: false });
