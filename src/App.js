@@ -21,11 +21,11 @@ function App() {
 
 <Container fluid>
 
-<h4 class="pt-4">Search a movie</h4>
-<MovieListWithSearch/>
-<h4 class="pt-4">Scary Movie</h4>
+{/* <h4 class="pt-4">Search a movie</h4> */}
+{/* <MovieListWithSearch/> */}
+<h4 class="pt-4">movies</h4>
 <MovieList query = "" / >
-<h4 class="pt-4">Harry Potter</h4>
+<h4 class="pt-4">movies clone</h4>
 <MovieList  query = "" />
 
 </Container>
